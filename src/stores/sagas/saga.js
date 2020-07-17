@@ -23,7 +23,6 @@ function* fetchSearch(action) {
     const data = yield call(searchApi, action.payload);
     yield put({ type: SEARCH_GIF_SUCCESS, data });
   } catch (e) {
-    console.log(e);
     yield put({ type: SEARCH_GIF_FAILED, message: e });
   }
 }

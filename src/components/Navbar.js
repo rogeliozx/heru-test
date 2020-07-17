@@ -1,16 +1,25 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { Navbar as NavbarBootstrap, Nav, NavItem } from 'reactstrap';
+import { useDispatch } from 'react-redux';
+import { GET_TRENDING } from './../stores/actions/gifs';
 
 const Navbar = () => {
+  const dispatch = useDispatch();
   return (
     <>
       <NavbarBootstrap color='dark' light expand='md'>
         <Nav className='mr-auto' navbar>
           <NavItem>
-            <NavLink className='text-light' exact to={'/trending'}>
+            <Link
+              className='text-light'
+              to='/trending'
+              onClick={() => {
+                window.location.reload(false);
+              }}
+            >
               Top Gifs
-            </NavLink>
+            </Link>
           </NavItem>
         </Nav>
       </NavbarBootstrap>
