@@ -1,68 +1,57 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Gyphy Api
 
-## Available Scripts
+Este es una prueba de Heru creando una pagina Consume la api Giphy 
 
-In the project directory, you can run:
+# Nota importante tener tu navegador la app redux-devtools
 
-### `npm start`
+### Instalación 🔧
+Redux dev tools esta disponible para el uso en el codigo
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Primero se necesita instalar las dependencias
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+```
+npm install
+```
+Despues Inicia el proyecto dentro de la carpeta
 
-### `npm test`
+```
+npm start
+```
+Despues se procede a abrir en el navegador 
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+http://localhost:3000
+```
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Construido con 🛠️
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+las herramientas utilizasdas en el proyeto
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* [React-boostrap](https://react-bootstrap.github.io) - Libreria con interfaces
+* [Reactstrap](https://reactstrap.github.io) - Libreria con interfaces
+* [Boostrap](https://getbootstrap.com) - Para mas estilos en la pagina
+* [Redux](https://es.redux.js.org) - Para el manejo del estado global en la aplicion
+* [Redux Sagas](https://redux-saga.js.org) - Para los middleware en redux
+* [React-router-dom](https://reactrouter.com/web/guides/quick-start) - Para las rutas en la app
 
-### `npm run eject`
+## Planes futuros 📌
+* Meter mas pruebas unitarias y mas coverage del codigo
+* Volverlo mas responsivo para moviles
+* Mejorar el sistema de busqueda
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Licencia 📄
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The MIT License (MIT)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Copyright (c) 2015 Chris Kibble
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-## Learn More
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Expresiones de Gratitud 🎁
+Muchas grecias al equipo Heru por darme la oportunidad de aplicar con este prueba.
 
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
