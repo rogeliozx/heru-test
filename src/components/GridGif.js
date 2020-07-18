@@ -16,9 +16,7 @@ const GridGif = ({ gifArray, search, loading }) => {
       <Row className='p-2'>
         {gifArray.map((gifItem, index) => (
           <Col sm={2} key={index}>
-            <LazyLoad height={400}>
-              <Image src={gifItem.images.downsized.url} thumbnail />
-            </LazyLoad>
+            <Image src={gifItem.images.downsized.url} thumbnail />
           </Col>
         ))}
       </Row>

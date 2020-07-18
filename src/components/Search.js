@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Logo from '../assets/logo.jpg';
 import { Col, Form, Button, Image } from 'react-bootstrap';
-const Search = ({ setsearch, searchGif }) => {
+const Search = ({ searchGif }) => {
   const [inputValue, setInputValue] = useState('');
   return (
     <div className='text-center'>
