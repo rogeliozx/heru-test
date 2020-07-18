@@ -39,6 +39,7 @@ las herramientas utilizasdas en el proyeto
 * Meter mas pruebas unitarias y mas coverage del codigo
 * Volverlo mas responsivo para moviles
 * Mejorar el sistema de busqueda
+* Mejorar los tiempo de carga los gif
 
 ## Licencia 📄
 
